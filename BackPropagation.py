@@ -1,3 +1,5 @@
+#Stanford cs231n
+
 import numpy as np
 
 #nonLinearity --> Activation function --> sigmoid
