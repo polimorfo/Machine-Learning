@@ -1,4 +1,4 @@
-#BackProp with Numpy ex
+#BackProp with Numpy example
 
 import numpy as np
 
