@@ -1,6 +1,6 @@
 import numpy as np
 
-#nonLinearity
+#nonLinearity --> Activation function --> sigmoid
 def nonlin (x, deriv = False):
     if (deriv==True):
         return x*(1-x)
