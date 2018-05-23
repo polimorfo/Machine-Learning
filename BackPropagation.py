@@ -1,4 +1,4 @@
-#Stanford cs231n
+#BackProp with Numpy example
 
 import numpy as np
 
