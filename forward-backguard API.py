@@ -11,3 +11,14 @@
      for gate in reversed (self.graph.nodes_topologically_sorted()):
      gate.backguard() # little piece of backp`rop(chain rule applied)
  return input_gradients
+
+#=========================================================================================
+
+class multiplyGate:
+    def forward(x,y):
+        z = x*y
+        return z
+    def backguard(dz):
+         #dx
+         #dy
+       return [dx,dy]
